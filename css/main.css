@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Navbar */
+
+#navbar {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.75rem;
+  height: 70px;
+}
+#navbar h1 {
+  font-family: "Barlow", sans-serif;
+}
+#navbar ul {
+  list-style-type: none;
+  display: flex;
+}
+#navbar ul li a {
+  padding: 0.75rem;
+}
+#navbar ul li a:hover {
+  background-color: #67c189;
+  border-radius: 4px;
+}
+
+/* Home */
+#logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border-bottom: 1px solid grey;
+}
+#logo img {
+  width: 65%;
+  height: auto;
+  border-radius: 100%;
+}
+
+/* Group Members */
+#group-members {
+  color: #fff;
+  padding: 1.5rem;
+}
+#group-members .group-members-header {
+  margin-bottom: 1.5rem;
+}
+#group-members .members {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#group-members .members .member {
+  width: 25%;
+  text-align: center;
+  padding: 0.5rem;
+}
+#group-members .members .member :hover {
+  color: #023020;
+  opacity: 0.6;
+}
+/* Project Description */
+#project-description {
+  padding: 1.5rem;
+}
+#project-description h3 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+#project-description .container h2 {
+  opacity: 0.8;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 2px;
+}
+#project-description .container .purpose-of-project {
+  letter-spacing: 1.5px;
+  margin-bottom: 0.4rem;
+}
+#project-description .container .description {
+  letter-spacing: 1px;
+}
+
+/* Supervisor */
+#supervisor {
+  color: #fff;
+  padding: 1rem;
+}
+#supervisor .supervisor-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#supervisor .supervisor-member img {
+  margin: 0.5rem 0;
+  max-width: 100%;
+  height: auto;
+  border-radius: 100%;
+}
+
+#supervisor .supervisor-member .supervisor-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#supervisor .supervisor-member .supervisor-email p a:hover {
+  color: lightgrey;
+}
+
+/* Jury Members */
+#jury-members h3 {
+  margin-top: 1rem;
+}
+.juries {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+.juries .jury img {
+  margin-bottom: 0.25rem;
+  max-width: 100%;
+  height: auto;
+  border-radius: 100%;
+}
+.juries .jury .jury-title {
+  font-weight: bold;
+  text-align: center;
+}
+.juries .jury .jury-email {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.juries .jury .jury-email p a {
+  color: black;
+}
+.juries .jury .jury-email p a:hover {
+  color: #a7a7a7;
+}
