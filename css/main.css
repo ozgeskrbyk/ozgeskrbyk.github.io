@@ -156,3 +156,30 @@ a {
 .juries .jury .jury-email p a:hover {
   color: #a7a7a7;
 }
+
+/* Documents */
+#documents-list {
+  color: #fff;
+  padding: 1rem;
+}
+.documents {
+  display: flex;
+  padding: 1rem;
+  justify-content: left;
+  align-items: left;
+}
+.documents ul {
+  list-style-type: none;
+}
+.documents ul li {
+  margin-bottom: 0.5rem;
+  padding: 10px 20px;
+}
+
+.documents ul li a {
+  padding: 0.75rem;
+}
+.documents ul li a:hover {
+  background-color: #67c189;
+  border-radius: 4px;
+}

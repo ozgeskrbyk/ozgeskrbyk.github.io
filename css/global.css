@@ -1,66 +1,65 @@
 /* Text  */
-.text-center{
-    text-align: center;
+.text-center {
+  text-align: center;
 }
-.heading-small{
-    font-size: 1.25rem;
+.heading-small {
+  font-size: 1.25rem;
 }
-.heading-medium{
-    font-size: 1.5rem;
+.heading-medium {
+  font-size: 1.5rem;
 }
-.heading-large{
-    font-size: 1.75rem;
+.heading-large {
+  font-size: 1.75rem;
 }
 
 /* Colors */
-.bg-darker-green{
-    background-color: #023020;
+.bg-darker-green {
+  background-color: #023020;
 }
-.bg-dark-green{
-    background-color: #4BA670;
+.bg-dark-green {
+  background-color: #4ba670;
 }
-.bg-light-green{
-    background-color: #67C189;
+.bg-light-green {
+  background-color: #67c189;
 }
-.bg-logo-color{
-    background-color: #8ABE53;
+.bg-logo-color {
+  background-color: #8abe53;
 }
 
 /* Buttons */
-.btn{
-    margin-top: 1.2rem;
-    padding: 0.8rem 3rem;
-    border-radius: 7px;
-    letter-spacing: 0.75px;
-    font-size: 0.75rem;
-    background-color: white;
+.btn {
+  margin-top: 1.2rem;
+  padding: 0.8rem 3rem;
+  border-radius: 7px;
+  letter-spacing: 0.75px;
+  font-size: 0.75rem;
+  background-color: white;
 }
-.btn:hover{
-    background-color: lightgray;
+.btn:hover {
+  background-color: lightgray;
 }
-.btn-primary{
-    background-color: #4BA670;
+.btn-primary {
+  background-color: #4ba670;
 }
-.btn-primary:hover{
-    background-color: white;
-    color: #4BA670;
-    border: 0.5px solid #4BA670;
+.btn-primary:hover {
+  background-color: white;
+  color: #4ba670;
+  border: 0.5px solid #4ba670;
 }
-.btn-dark{
-    background-color: #333;
+.btn-dark {
+  background-color: #333;
 }
-.btn-dark:hover{
-    background-color: white;
-    color: #333;
-    border: 0.5px solid #333;
+.btn-dark:hover {
+  background-color: white;
+  color: #333;
+  border: 0.5px solid #333;
 }
-.btn-block{
-    width: 100%;
-    text-align: center;
+.btn-block {
+  width: 100%;
+  text-align: center;
 }
 
 /* Container */
-.container{
-    max-width: 1100px;
-    margin: 0 auto;
+.container {
+  margin: 0 auto;
 }
